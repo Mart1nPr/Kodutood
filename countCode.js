@@ -4,7 +4,7 @@ const data = ["FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0","iHwbq2giBx","X5Ebl6sjLf","
 
 let array = [];
 
-function CountCode(letter) {
+function countCode(letter) {
     for(let i = 0; i < data.length; i++) {
         if(data[i].startsWith(letter)) {
             array.push(data[i])
@@ -13,4 +13,4 @@ function CountCode(letter) {
     return data.length
 }
 
-console.log(CountCode('i'));
+console.log(countCode('i'));
