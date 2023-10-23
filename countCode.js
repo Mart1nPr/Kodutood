@@ -10,7 +10,7 @@ function countCode(letter) {
             array.push(data[i])
         }
     }
-    return data.length
+    return array.length
 }
 
 console.log(countCode('i'));
