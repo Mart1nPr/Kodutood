@@ -7,7 +7,7 @@ const data = ['FWmcfgAWxe', 'KnFJXGcACq', 'cCYApSPiX0', 'iHwbq2giBx', 'X5Ebl6sjL
             array.push(data[i])
         }
     }
-    return array.length;
+    return array.length
 }
 
 console.log(countCode('i'));
